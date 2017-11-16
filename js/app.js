@@ -1,9 +1,9 @@
 /*
  * Funcionalidad de tu producto
  */
-function filter{
+//function filter{
 	
-}
+//}//
 
 
 
