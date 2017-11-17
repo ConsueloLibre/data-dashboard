@@ -60,3 +60,29 @@ p{
 	color: grey;
 	margin-left: 700px;
 }
+li{
+  /*outline: 1px solid red;*/
+  width: 100px;
+  /*display: inline-block;*/
+  text-align: center;
+  float: right;
+}
+ul{
+  /*outline: 1px solid blue;*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 50px;
+  overflow:auto;
+	margin-top: -50px;
+}
+a:hover{
+  background: #FFBF00;
+  color: #000;
+}
+a{
+  /*outline: 1px solid green;*/
+  text-decoration: none;
+  color:black;
+  display: block;
+}
