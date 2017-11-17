@@ -1,5 +1,5 @@
 /*
- * Estilos de tu proyecto
+ font-family: 'Montserrat', sans-serif;
  */
 body{
 	marging-left: 0px;
@@ -14,6 +14,7 @@ body{
 	width: 100%;
 	height: 100px;
 	background: #e1e1e1;
+	font-family: 'Montserrat', sans-serif;
 
 }
 h2{
@@ -22,4 +23,11 @@ h2{
 }
 #boton{
 	display: inline-block;
+}
+select {
+    margin-left: 52px;
+    padding: 8px;
+    width: 172px;
+    font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
 }
