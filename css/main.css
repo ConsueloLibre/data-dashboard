@@ -2,7 +2,7 @@
  font-family: 'Montserrat', sans-serif;
  */
 body{
-	marging-left: 0px;
+	margin: 0px;
 }
 .logo {
 	width: 244px;
@@ -36,4 +36,27 @@ input#back {
     font-family: 'Montserrat', sans-serif;
     width: 100px;
     height: 40px;
+}
+
+#cont{
+	margin-left: 10px;
+	display: inline-block;
+}
+
+#cont_div2{
+	display: inline-block;
+	margin-left: 0px;
+}
+
+#cont_div3{
+	display: inline-block;
+	margin-left: 600px;
+	position: relative;
+	bottom: 280px;
+	left: 291px;
+}
+p{
+	display: inline-block;
+	color: grey;
+	margin-left: 700px;
 }
