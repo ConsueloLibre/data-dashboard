@@ -14,21 +14,19 @@
       <div class="filter_1">
         <h2>Santiago - Chile</h2>
 
-          <select name="OS">
-            <option selected value="0"> Selecciona</option>
-       <optgroup label="Generación">
-       <option value="1">2015_Generación_1</option>
-       <option value="2">2016_Generación_2</option>
-       <option value="3">2016_Generación_3</option>
-       <option value="4">2017_Generación_4</option>
-       <option value="5">2017_Generación_5AM</option>
-       <option value="6">2017_Generación_5PM</option>
-   </optgroup>
-
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+          <option value="">Select...</option>
+          <option value="index1.html">2015_Generación_1</option>
+          <option value="index2.html">2016_generación_2</option>
+          <option value="index3.html">2016_Generación_3</option>
+          <option value="index4.html">2017_generación_4</option>
+          <option value="index5.html">2017_Generación_5_AM</option>
+          <option value="index6.html">2017_generación_5_PM</option>
         </select>
       </div>
 
     </section>
+
     <!--papa de todo -->
     <div id="cont"></div>
 		<!-- Base de datos -->
