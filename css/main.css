@@ -154,7 +154,7 @@ a{
 
 
 #container3{
-  
+
   height: 500px;
 }
 #cont_div12{
@@ -193,4 +193,20 @@ a{
   left: 849px;
   bottom: 503px;
 
+}
+.students_num{
+	position: absolute;
+    width: 240px;
+    height: 84px;
+    background: #9a9a9a;
+    color: #080707;
+    font-size: 30px;
+    margin-top: 338px;
+}
+p.num_box {
+	letter-spacing: 1px;
+		color: black;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
 }

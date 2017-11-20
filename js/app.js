@@ -213,12 +213,12 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             var data12 = new google.visualization.DataTable();
             data12.addColumn('string', 'Sprint');
             data12.addColumn('number', 'Porcent');
-           
+
             data12.addRows([
               ['SPRINT 1', 73],
               ['SPRINT 2', 80],
               ['SPRINT 3', 42],
-              
+
             ]);
 
             var data13 = google.visualization.arrayToDataTable([
@@ -226,18 +226,19 @@ google.load('visualization', '1.0',{'packages':['corechart']});
               ['1',  4.2,],
               ['2',  4.6],
               ['3',  4.6],
-              
+
            ]);
             var data14 = google.visualization.arrayToDataTable([
               ['Sprint', 'Rating'],
               ['1',  4.5,],
               ['2',  4.4],
               ['3',  4.1],
-              
+
            ]);
 
             // Opciones del grafico
             var options10 = {title: 'TECH POINTS',
+                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 905, maxValue: 1783},
                           trendlines: {
@@ -249,6 +250,7 @@ google.load('visualization', '1.0',{'packages':['corechart']});
              };
             // Opciones del grafico
             var options11 = {title: 'HSE POINTS',
+                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 602, maxValue: 1182},
                           trendlines: {
@@ -261,17 +263,20 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             // Opciones del grafico
             var options12 = {'title':'70% Approval',
                            'width':400,
-                           'height':300};
-            
-                           
+                           'height':300,
+                         'colors':['rgb(255,255,45)','rgb(255,153,0)']};
+
+
              var options13= {title: 'Teacher Rating',
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
-                            vAxis: {minValue: 0}
+                            vAxis: {minValue: 0},
+                            'colors':['rgb(255,255,45)','rgb(255,153,0)']
             };
 
             var options14= {title: 'Jedi Master Rating',
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
-                            vAxis: {minValue: 0}
+                            vAxis: {minValue: 0},
+                            'colors':['rgb(255,255,45)','rgb(255,153,0)']
             };
 
            // dibujando graficos y otorgandoles la info de la data y las opciones anteriormente establecidas//
