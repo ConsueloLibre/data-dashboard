@@ -1,6 +1,11 @@
 /*
  font-family: 'Montserrat', sans-serif;
  */
+
+header{
+	font-family: 'Montserrat', sans-serif
+}
+
 body{
 	margin: 0px;
 }
@@ -279,7 +284,9 @@ p.num_box {
 	padding-top: 0px;
 	position: absolute;
 	margin-top: -86px;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
+  font-size: 16px;
+
 }
 p.name {
     margin-top: 17px;
@@ -288,4 +295,23 @@ p.close {
     padding-top: -39px;
     position: absolute;
     margin-top: unset;
+}
+img.vale {
+    position: absolute;
+    width: 64px;
+    margin-left: 880px;
+    margin-top: 12px;
+}
+li.up {
+    margin-top: 52px;
+    width: 164px;
+    margin-left: 714px;
+    padding: 0px;
+}
+li.down {
+	font-weight: 900;
+	margin-top: 89px;
+	margin-left: 783px;
+	position: absolute;
+	font-size: 11px;
 }
