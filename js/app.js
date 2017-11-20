@@ -335,7 +335,7 @@ google.load('visualization', '1.0',{'packages':['corechart']});
 
             // Opciones del grafico
             var options15 = {title: 'TECH POINTS',
-                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                          'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 905, maxValue: 1783},
                           trendlines: {
@@ -348,7 +348,7 @@ google.load('visualization', '1.0',{'packages':['corechart']});
              };
             // Opciones del grafico
             var options16 = {title: 'HSE POINTS',
-                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                          'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 602, maxValue: 1182},
                           trendlines: {
@@ -362,17 +362,17 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             var options17 = {'title':'70% Approval',
                            'width':400,
                            'height':300,
-                         'colors':['rgb(255,255,45)','rgb(255,153,0)']};
+                         'colors':['rgb(255,255,45)','rgb(165,167,145)']};
 
 
              var options18= {title: 'Teacher Rating',
-                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                            'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
 
             var options19= {title: 'Jedi Master Rating',
-                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                            'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
@@ -434,7 +434,7 @@ google.load('visualization', '1.0',{'packages':['corechart']});
 
             // Opciones del grafico
             var options20 = {title: 'TECH POINTS',
-                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                          'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 905, maxValue: 1783},
                           trendlines: {
@@ -446,7 +446,7 @@ google.load('visualization', '1.0',{'packages':['corechart']});
              };
             // Opciones del grafico
             var options21 = {title: 'HSE POINTS',
-                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                          'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 602, maxValue: 1182},
                           trendlines: {
@@ -460,17 +460,17 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             var options22 = {'title':'70% Approval',
                            'width':400,
                            'height':300,
-                         'colors':['rgb(255,255,45)','rgb(255,153,0)']};
+                         'colors':['rgb(255,255,45)','rgb(165,167,145)']};
 
 
              var options23= {title: 'Teacher Rating',
-                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                            'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
 
             var options24= {title: 'Jedi Master Rating',
-                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
+                            'colors':['rgb(255,255,45)','rgb(165,167,145)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
