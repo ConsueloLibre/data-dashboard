@@ -24,16 +24,16 @@ body{
 }
 h2{
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 382px;
 }
 
 select {
-    margin-left: 52px;
-    padding: 8px;
-    width: 209px;
-    font-size: 18px;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: 800;
+	margin-left: 6px;
+	padding: 8px;
+	width: 247px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
 }
 input#back {
 	font-family: 'Montserrat', sans-serif;
@@ -42,7 +42,8 @@ input#back {
 	height: 35px;
 	font-weight: bolder;
 	margin-left: 1162px;
-	margin-top: -54px;
+	margin-top: -47px;
+	position: absolute;
 }
 #container{
   margin-top: 30px;
@@ -314,4 +315,9 @@ li.down {
 	margin-left: 783px;
 	position: absolute;
 	font-size: 11px;
+}
+h2 {
+    display: inline-block;
+    margin-left: 241px;
+    margin-top: 31px;
 }
