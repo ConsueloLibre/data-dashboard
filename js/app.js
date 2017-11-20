@@ -4,13 +4,13 @@
 //graficos//
 
 
-
+//graficos index//
 
 google.load('visualization', '1.0',{'packages':['corechart']});
 
     	google.setOnLoadCallback(drawChart);
 
-    	          function drawChart() {
+    	       function drawChart() {
 
             // Create the data table.
             var data4 = new google.visualization.DataTable();
@@ -174,17 +174,17 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             var options7 = {'title':'Aprobación del 70%',
                            'width':400,
                            'height':300,
-                           'colors':['rgb(248,170,28)','rgb(255,255,95)']};
+                          'colors':['rgb(248,170,28)','rgb(255,255,95)']};
             // Set chart options
             var options8 = {'title':'Puntaje TECH v/s HSE',
                            'width':400,
                            'height':300,
-                         'colors':['rgb(248,170,28)','rgb(255,255,95)']};
+                          'colors':['rgb(248,170,28)','rgb(255,255,95)']};
             // Set chart options
             var options9 = {'title':'¿LABORATORIA?',
                            'width':400,
                            'height':300,
-                         'colors':['rgb(248,170,28)','rgb(255,255,95)']};
+                          'colors':['rgb(248,170,28)','rgb(255,255,95)']};
            // Instantiate and draw our chart, passing in some options.
             var contt2 = new google.visualization.ColumnChart(document.getElementById('cont2'));
             contt2.draw(data7, options7);
@@ -195,6 +195,97 @@ google.load('visualization', '1.0',{'packages':['corechart']});
 
 }
 
+  google.load('visualization', '1.0',{'packages':['corechart']});
+            google.setOnLoadCallback(dr);
+
+            function dr() {
+            // Crear la tabla de datos.//
+            var data10 = google.visualization.arrayToDataTable([
+            ['SPRINT', 'Points'],
+            [1, 905], [2, 1355], [3, 1783]
+           ]);
+            // Crear la tabla de datos.//
+            var data11 = google.visualization.arrayToDataTable([
+            ['SPRINT', 'Points'],
+            [1, 602], [2, 888], [3, 1182]
+           ]);
+            // Crear la tabla de datos.//
+            var data12 = new google.visualization.DataTable();
+            data12.addColumn('string', 'Sprint');
+            data12.addColumn('number', 'Porcent');
+           
+            data12.addRows([
+              ['SPRINT 1', 73],
+              ['SPRINT 2', 80],
+              ['SPRINT 3', 42],
+              
+            ]);
+
+            var data13 = google.visualization.arrayToDataTable([
+              ['Sprint', 'Rating'],
+              ['1',  4.2,],
+              ['2',  4.6],
+              ['3',  4.6],
+              
+           ]);
+            var data14 = google.visualization.arrayToDataTable([
+              ['Sprint', 'Rating'],
+              ['1',  4.5,],
+              ['2',  4.4],
+              ['3',  4.1],
+              
+           ]);
+
+            // Opciones del grafico
+            var options10 = {title: 'TECH POINTS',
+                          hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
+                          vAxis: {title: 'Points', minValue: 905, maxValue: 1783},
+                          trendlines: {
+                          0: {
+                          type: 'exponential',
+                          visibleInLegend: true,
+                          }
+                    }
+             };
+            // Opciones del grafico
+            var options11 = {title: 'HSE POINTS',
+                          hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
+                          vAxis: {title: 'Points', minValue: 602, maxValue: 1182},
+                          trendlines: {
+                          0: {
+                          type: 'exponential',
+                          visibleInLegend: true,
+                          }
+                    }
+             };
+            // Opciones del grafico
+            var options12 = {'title':'70% Approval',
+                           'width':400,
+                           'height':300};
+            
+                           
+             var options13= {title: 'Teacher Rating',
+                            hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
+                            vAxis: {minValue: 0}
+            };
+
+            var options14= {title: 'Jedi Master Rating',
+                            hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
+                            vAxis: {minValue: 0}
+            };
+
+           // dibujando graficos y otorgandoles la info de la data y las opciones anteriormente establecidas//
+            var cont4 = new google.visualization.ScatterChart(document.getElementById('cont4'));
+            cont4.draw(data10, options10);
+            var cont12 = new google.visualization.ScatterChart(document.getElementById('cont_div12'));
+            cont12.draw(data11, options11);
+            var cont13 = new google.visualization.ColumnChart(document.getElementById('cont_div13'));
+            cont13.draw(data12, options12);
+            var cont14 = new google.visualization.ColumnChart(document.getElementById('cont_div14'));
+            cont14.draw(data13, options13);
+             var cont15 = new google.visualization.ColumnChart(document.getElementById('cont_div15'));
+            cont15.draw(data14, options14);
+}
 
 
 
