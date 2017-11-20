@@ -310,12 +310,12 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             var data17 = new google.visualization.DataTable();
             data17.addColumn('string', 'Sprint');
             data17.addColumn('number', 'Porcent');
-           
+
             data17.addRows([
               ['SPRINT 1', 63],
               ['SPRINT 2', 70],
               ['SPRINT 3', 32],
-              
+
             ]);
 
             var data18 = google.visualization.arrayToDataTable([
@@ -323,29 +323,32 @@ google.load('visualization', '1.0',{'packages':['corechart']});
               ['1',  3.9,],
               ['2',  4.0],
               ['3',  4.6],
-              
+
            ]);
             var data19 = google.visualization.arrayToDataTable([
               ['Sprint', 'Rating'],
               ['1',  4.8,],
               ['2',  4.8],
               ['3',  4.3],
-              
+
            ]);
 
             // Opciones del grafico
             var options15 = {title: 'TECH POINTS',
+                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 905, maxValue: 1783},
                           trendlines: {
                           0: {
                           type: 'exponential',
                           visibleInLegend: true,
+
                           }
                     }
              };
             // Opciones del grafico
             var options16 = {title: 'HSE POINTS',
+                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 602, maxValue: 1182},
                           trendlines: {
@@ -358,15 +361,18 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             // Opciones del grafico
             var options17 = {'title':'70% Approval',
                            'width':400,
-                           'height':300};
-            
-                           
+                           'height':300,
+                         'colors':['rgb(255,255,45)','rgb(255,153,0)']};
+
+
              var options18= {title: 'Teacher Rating',
+                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
 
             var options19= {title: 'Jedi Master Rating',
+                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
@@ -403,12 +409,12 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             var data22 = new google.visualization.DataTable();
             data22.addColumn('string', 'Sprint');
             data22.addColumn('number', 'Porcent');
-           
+
             data22.addRows([
               ['SPRINT 1', 65],
               ['SPRINT 2', 74],
               ['SPRINT 3', 32],
-              
+
             ]);
 
             var data23 = google.visualization.arrayToDataTable([
@@ -416,18 +422,19 @@ google.load('visualization', '1.0',{'packages':['corechart']});
               ['1',  4.6,],
               ['2',  4.4],
               ['3',  4.8],
-              
+
            ]);
             var data24 = google.visualization.arrayToDataTable([
               ['Sprint', 'Rating'],
               ['1',  4.9,],
               ['2',  4.9],
               ['3',  4.5],
-              
+
            ]);
 
             // Opciones del grafico
             var options20 = {title: 'TECH POINTS',
+                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 905, maxValue: 1783},
                           trendlines: {
@@ -439,6 +446,7 @@ google.load('visualization', '1.0',{'packages':['corechart']});
              };
             // Opciones del grafico
             var options21 = {title: 'HSE POINTS',
+                          'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                           hAxis: {title: 'SPRINT', minValue: 0, maxValue: 3},
                           vAxis: {title: 'Points', minValue: 602, maxValue: 1182},
                           trendlines: {
@@ -451,15 +459,18 @@ google.load('visualization', '1.0',{'packages':['corechart']});
             // Opciones del grafico
             var options22 = {'title':'70% Approval',
                            'width':400,
-                           'height':300};
-            
-                           
+                           'height':300,
+                         'colors':['rgb(255,255,45)','rgb(255,153,0)']};
+
+
              var options23= {title: 'Teacher Rating',
+                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
 
             var options24= {title: 'Jedi Master Rating',
+                            'colors':['rgb(255,255,45)','rgb(255,153,0)'],
                             hAxis: {title: 'Sprint',  titleTextStyle: {color: '#000'}},
                             vAxis: {minValue: 0}
             };
