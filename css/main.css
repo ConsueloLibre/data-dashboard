@@ -41,7 +41,14 @@ input#back {
 }
 #container{
   margin-top: 30px;
-  height: 380px;
+  height: 328px;
+}
+
+
+.img2{
+  display: inline-block;
+  margin-left: 300px;
+
 }
 #cont{
 	margin-left: 10px;
@@ -210,3 +217,61 @@ p.num_box {
     margin-left: 0px;
     margin-top: 0px;
 }
+
+#container4{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#cont5{
+  display: inline-block;
+}
+
+#cont_div16{
+  display: inline-block;
+}
+
+#cont_div17{
+  display: inline-block;
+}
+#cont_div18{
+  display: inline-block;
+}
+#cont_div19{
+  display: inline-block;
+}
+
+.amjpg{
+  display: inline-block;
+  margin-left: 32px;
+  
+}
+#container5{
+  margin-left: 30px;
+}
+#cont6{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+#cont_div20{
+  display: inline-block;
+}
+
+#cont_div21{
+  display: inline-block;
+}
+#cont_div22{
+  display: inline-block;
+}
+#cont_div23{
+  display: inline-block;
+}
+
+.pmjpg{
+  display: inline-block;
+  margin-left: 32px;
+  
+}
+
