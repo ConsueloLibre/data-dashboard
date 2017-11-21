@@ -490,10 +490,203 @@ google.load('visualization', '1.0',{'packages':['corechart']});
 }
 
 
+
 // Puedes hacer uso de la base de datos a través de la variable `data`
 //console.log(data);//
 //para sacar los datos de activos e inactivos//
+/*
+var cont_estudents= document.getElementById('container6');
+
 for (var i = 0; i < data.SCL['2017-1'].students.length; i++) {
-  console.log(data.SCL['2017-2'].students[i].active);
-  //cont.innerHTML += '<p>La estudiante número ' + [i+1] + ' es: ' + data.SCL['2017-2'].students[i].active + '</p>';//
+ var info= data.SCL['2017-2'].students[i].name;
+ //var text= document.createTextNode(info);
+ //container6.appendChild(text);
+
+  console.log(data.SCL['2017-2'].students[i].name);
+
+  container6.innerHTML += '<p>La estudiante número ' + [i+1] + ' es: ' + data.SCL['2017-2'].students[i].name + '</p>'; 
 }
+
+var info2= data.SCL['2017-2'].students[i].photo;
+for (var i = 0; i < data.SCL['2017-1'].students.length; i++) {
+container6.innerHTML += '<p>La estudiante número ' + [i+1] + ' es: ' + data.SCL['2017-2'].students[i].photo + '</p>'; 
+  console.log(data.SCL['2017-2'].students[i].photo)
+}
+
+for (var i = 0; i < data.SCL['2017-1'].students.length; i++) {
+
+  console.log(data.SCL['2017-2'].students[i].active)
+}
+
+for (var i = 0; i < data.SCL['2017-1'].students.length; i++) {
+
+  console.log(data.SCL['2017-2'].students[i].sprints)
+}
+*/
+//input//
+var contene=document.getElementById('container6');
+var con= document.createElement('div');
+con.setAttribute('class', 'newDiv');
+var input= document.createElement('input');
+input.setAttribute('placeholder', 'Search...');
+container6.appendChild(con);
+con.appendChild(input);
+
+//alumnas//
+var newCont= document.createElement('div');
+newCont.setAttribute('class', 'nuevo');
+var foto= document.createElement("img");
+foto.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto.classList.add('class', 'foto');
+var divText= document.createElement('div');
+divText.setAttribute('class', 'divtext');
+var texto= document.createTextNode('Name: Melany Brougham');
+var divText1= document.createElement('div');
+divText1.setAttribute('class', 'divtext1');
+var textoo= document.createTextNode('Active: False Assistance: 0%');
+container6.appendChild(newCont);
+newCont.appendChild(foto);
+divText.appendChild(texto);
+divText1.appendChild(textoo);
+newCont.appendChild(divText);
+newCont.appendChild(divText1);
+
+var newCont2= document.createElement('div');
+newCont2.setAttribute('class', 'nuevo2');
+var foto2= document.createElement("img");
+foto2.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto2.classList.add('class', 'foto2');
+var divText2= document.createElement('div');
+divText2.setAttribute('class', 'divtext2');
+var texto2= document.createTextNode('Name: Flore Ibbitt');
+var divText3= document.createElement('div');
+divText3.setAttribute('class', 'divtext3');
+var texto3= document.createTextNode('Active: True Assistance: 90%');
+
+
+container6.appendChild(newCont2);
+newCont2.appendChild(foto2);
+divText2.appendChild(texto2);
+divText3.appendChild(texto3);
+newCont2.appendChild(divText2);
+newCont2.appendChild(divText3);
+
+var newCont3= document.createElement('div');
+newCont3.setAttribute('class', 'nuevo3');
+var foto3= document.createElement("img");
+foto3.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto3.classList.add('class', 'foto3');
+var divText4= document.createElement('div');
+divText4.setAttribute('class', 'divtext4');
+var texto4= document.createTextNode('Name: Emilia Elldred');
+var divText5= document.createElement('div');
+divText5.setAttribute('class', 'divtext5');
+var texto5= document.createTextNode('Active: True Assistance: 80%');
+
+
+container6.appendChild(newCont3);
+newCont3.appendChild(foto3);
+divText4.appendChild(texto4);
+divText5.appendChild(texto5);
+newCont3.appendChild(divText4);
+newCont3.appendChild(divText5);
+
+var newCont4= document.createElement('div');
+newCont4.setAttribute('class', 'nuevo4');
+var foto4= document.createElement("img");
+foto4.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto4.classList.add('class', 'foto4');
+var divText6= document.createElement('div');
+divText6.setAttribute('class', 'divtext6');
+var texto7= document.createTextNode('Name: Emilia Elldred');
+var divText7= document.createElement('div');
+divText7.setAttribute('class', 'divtext7');
+var texto8= document.createTextNode('Active: True Assistance: 80%');
+
+
+container6.appendChild(newCont4);
+newCont4.appendChild(foto4);
+divText6.appendChild(texto7);
+divText7.appendChild(texto8);
+newCont4.appendChild(divText6);
+newCont4.appendChild(divText7);
+
+var newCont5= document.createElement('div');
+newCont5.setAttribute('class', 'nuevo5');
+var foto5= document.createElement("img");
+foto5.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto5.classList.add('class', 'foto5');
+var divText8= document.createElement('div');
+divText8.setAttribute('class', 'divtext9');
+var texto9= document.createTextNode('Name: Emilia Elldred');
+var divText9= document.createElement('div');
+divText9.setAttribute('class', 'divtext10');
+var texto10= document.createTextNode('Active: True Assistance: 80%');
+
+
+container6.appendChild(newCont5);
+newCont5.appendChild(foto5);
+divText8.appendChild(texto9);
+divText9.appendChild(texto10);
+newCont5.appendChild(divText8);
+newCont5.appendChild(divText9);
+
+var newCont6= document.createElement('div');
+newCont6.setAttribute('class', 'nuevo6');
+var foto6= document.createElement("img");
+foto6.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto6.classList.add('class', 'foto6');
+var divText11= document.createElement('div');
+divText11.setAttribute('class', 'divtext11');
+var texto12= document.createTextNode('Name: Emilia Elldred');
+var divText12= document.createElement('div');
+divText12.setAttribute('class', 'divtext12');
+var texto13= document.createTextNode('Active: True Assistance: 80%');
+
+
+container6.appendChild(newCont6);
+newCont6.appendChild(foto6);
+divText11.appendChild(texto12);
+divText12.appendChild(texto13);
+newCont6.appendChild(divText11);
+newCont6.appendChild(divText12);
+
+var newCont7= document.createElement('div');
+newCont7.setAttribute('class', 'nuevo7');
+var foto7= document.createElement("img");
+foto7.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto7.classList.add('class', 'foto7');
+var divText13= document.createElement('div');
+divText13.setAttribute('class', 'divtext13');
+var texto14= document.createTextNode('Name: Emilia Elldred');
+var divText14= document.createElement('div');
+divText14.setAttribute('class', 'divtext14');
+var texto15= document.createTextNode('Active: True Assistance: 80%');
+
+
+container6.appendChild(newCont7);
+newCont7.appendChild(foto7);
+divText13.appendChild(texto14);
+divText14.appendChild(texto15);
+newCont7.appendChild(divText13);
+newCont7.appendChild(divText14);
+
+var newCont8= document.createElement('div');
+newCont8.setAttribute('class', 'nuevo8');
+var foto8= document.createElement("img");
+foto8.setAttribute("src", "http://dummyimage.com/224x136.png/FFCD00/ffffff");
+foto8.classList.add('class', 'foto8');
+var divText16= document.createElement('div');
+divText16.setAttribute('class', 'divtext16');
+var texto17= document.createTextNode('Name: Emilia Elldred');
+var divText17= document.createElement('div');
+divText17.setAttribute('class', 'divtext17');
+var texto18= document.createTextNode('Active: True Assistance: 80%');
+
+
+container6.appendChild(newCont8);
+newCont8.appendChild(foto8);
+divText16.appendChild(texto17);
+divText17.appendChild(texto18);
+newCont8.appendChild(divText16);
+newCont8.appendChild(divText17);
