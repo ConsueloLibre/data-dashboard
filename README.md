@@ -49,3 +49,9 @@ Continua nuestro intento de llamar a la data desde el codigo JS, se nos ha hecho
 bastante dificil, hasta el punto de hacer de manera manual los calculos.
 Aún así, hemos consolidado la información, desidimos darle enfoque UX e intentar
 suplir las necesidades de los usuarios, ingresando maquetas de usuario.
+
+**En conclusión**
+#Hemos realizado un trabajo, bastante minimalista, realizando de manera detallada cada uno
+#los elementos que componen esta "Dashboard", como equipo nos sentimos bastante conformes
+#con la organización y resultado, hubo bastante comunicación en el equipo y no fue
+#un problema coordinar los tiempos y disposiciones.
